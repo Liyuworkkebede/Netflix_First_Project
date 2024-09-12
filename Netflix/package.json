@@ -1,9 +1,12 @@
 {
+  "homepage":"https://Liyuworkkebede.github.io/Netflix_First_Project",
   "name": "y",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
