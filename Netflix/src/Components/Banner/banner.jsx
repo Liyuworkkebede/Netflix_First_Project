@@ -49,7 +49,7 @@ function truncate(str,n){
         }}
         
       >
-        <div className='banner_content'>
+        <div className='banner_contents'>
         <h1 className='banner_title'>{movie?.title||movie.name || movie?.original_name}</h1>
 <div className='banner_buttons'>
     <button className='banner_button play'>Play</button>
