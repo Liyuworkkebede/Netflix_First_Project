@@ -1,7 +1,7 @@
 import React, {useEffect, useState } from 'react'
 import "./row.css";
 import axios from "../../../Utils/axios.js"
- import movieTrailer from 'movie-trailer'
+import movieTrailer from 'movie-trailer'
 import YouTube from 'react-youtube'
 const Row = ({title, fetchUrl,isLargeRow})=>{
 
@@ -48,7 +48,7 @@ const opts = {
         />
       })}</div>
       <div style ={{padding:"40px"}}>
-        {trailerUrl && <YouTube video={trailerUrl}opts={opts}/>}
+        {trailerUrl && <YouTube videoId={trailerUrl}opts={opts}/>}
         
       </div>
     </div>
